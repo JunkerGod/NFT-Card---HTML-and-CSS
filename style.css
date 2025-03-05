@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap");
+:root{
+    --white: rgb(255, 255, 255);
+
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    --Very-Dark-Blue-Bg: hsl(217, 54%, 11%);
+    --blue-card-bg: hsl(216, 50%, 16%);
+    --blue-line: hsl(215, 32%, 27%);
+
+    --white: hsl(0, 0%, 100%);
+}
+
+.card{
+display: block;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 15px;
+padding-top: 5px;
+width: 270px;
+height: auto;
+background-color: var(--blue-card-bg);
+padding-bottom: 10px;
+padding-right: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+box-shadow: 10px 10px 10px 10px  rgb(6, 21, 43);;
+}
+
+.image{
+    width: 240px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.images{
+    position: relative;
+    float: auto; 
+}
+
+.hover-image{
+    margin-left: 115px;
+    margin-top: 110px;
+}
+
+.image:hover{
+    filter: brightness(50%);
+    cursor: pointer;
+}
+
+.hover-image{
+    pointer-events: none;
+}
+
+.images .hover-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.images:hover .hover-image {
+  display: block;
+}
+
+
+.heading-1{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  color: var(--white);
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.Text{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: small;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: var(--white);
+    margin-bottom: 3px;
+
+}
+
+.heading-1:hover{
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.icon-1{
+    float: left;
+    margin-left: 15px;
+    margin-right: 5px;
+    height: 12px;
+    
+}
+
+.sub-text1{
+    font-family: "outfit", sans-serif;
+    color: var(--cyan);
+    font-size: 12px;
+    
+}
+
+.idk{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 15px;
+    font-family: "Outfit", sans-serif;
+    color: var(--soft-blue);
+    font-size: 13px;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.line{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: var(--blue-line);
+    border-radius: 15px;
+    border: 0.3px solid var(--blue-line);
+
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.pfp{
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 360px;
+}
+
+.name{
+    font-family: "outfit", sans-serif;
+    color: var(--soft-blue);
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.Jagath{
+    font-weight: 400; 
+    color: white;
+}
+
+.Jagath:hover{
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+body{
+    background-color: var(--Very-Dark-Blue-Bg);
+}
